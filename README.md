@@ -26,7 +26,7 @@ To run the examples in this repository, you'll need to have Ruby installed on yo
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/eminel9311/ruby_for_beginners.git
+   git clone https://github.com/eminel9311/ruby-for-beginners.git
    ```
 2. Navigate to the project directory:
    ```bash
