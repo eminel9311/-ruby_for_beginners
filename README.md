@@ -30,7 +30,7 @@ To run the examples in this repository, you'll need to have Ruby installed on yo
    ```
 2. Navigate to the project directory:
    ```bash
-   cd ruby_for_beginners
+   cd ruby-for-beginners
    ```
 3. Navigate to the child project 
     ```bash
