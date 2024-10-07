@@ -1,7 +1,8 @@
-=begin
-Write your code for the 'Hamming' exercise in this file. Make the tests in
-`hamming_test.rb` pass.
-
-To get started with TDD, see the `README.md` file in your
-`ruby/hamming` directory.
-=end
+module Hamming
+  def self.compute(str1, str2)
+    raise ArgumentError, "Two strings have different sizes" if str1.length != str2.length
+  
+    # Sử dụng phép gán trực tiếp trong khối lệnh
+    str1.chars.each_with_index.count { |char, index| char != str2[index] }
+  end
+end
